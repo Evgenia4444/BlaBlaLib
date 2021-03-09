@@ -58,13 +58,9 @@ body {
           align-items: baseline;
 }
 
-.easel {
+.easeldiv {
+  margin-left: 10px;
   position: relative;
-}
-
-.easel .clock {
-  position: absolute;
-  top: 10px;
 }
 
 .row_2_2 {
