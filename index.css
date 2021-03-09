@@ -184,4 +184,34 @@ body {
           box-shadow: 3px 19px 30px #E24236;
   cursor: pointer;
 }
+
+.lightbulb {
+  position: absolute;
+  left: 400px;
+  top: 1700px;
+  -webkit-animation: lightbulb 2s infinite linear;
+          animation: lightbulb 2s infinite linear;
+}
+
+@-webkit-keyframes lightbulb {
+  from {
+    -webkit-transform: rotateZ(5deg);
+            transform: rotateZ(5deg);
+  }
+  to {
+    -webkit-transform: rotateZ(-20deg);
+            transform: rotateZ(-20deg);
+  }
+}
+
+@keyframes lightbulb {
+  from {
+    -webkit-transform: rotateZ(5deg);
+            transform: rotateZ(5deg);
+  }
+  to {
+    -webkit-transform: rotateZ(-20deg);
+            transform: rotateZ(-20deg);
+  }
+}
 /*# sourceMappingURL=index.css.map */

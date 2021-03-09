@@ -152,3 +152,19 @@ body {
     box-shadow: 3px 19px 30px #E24236;
 cursor: pointer;
 }
+
+.lightbulb {
+    position: absolute;
+    left: 400px;
+    top: 1700px;
+    animation: lightbulb 2s infinite linear;
+}
+
+@keyframes lightbulb {
+    from {
+        transform: rotateZ(5deg);
+    }
+    to {
+        transform: rotateZ(-20deg);
+    }
+}
