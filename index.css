@@ -124,4 +124,17 @@ body {
           box-shadow: 3px 19px 30px #77C3A9;
   cursor: pointer;
 }
+
+.presubmarine {
+  position: absolute;
+  top: 200px;
+}
+
+.row_4_2 {
+  position: relative;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
 /*# sourceMappingURL=index.css.map */
