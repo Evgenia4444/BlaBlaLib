@@ -63,6 +63,15 @@ body {
   position: relative;
 }
 
+.easeldiv .clock {
+  position: absolute;
+  top: -10px;
+  left: -102px;
+  opacity: 0;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
 .row_2_2 {
   margin-right: 0;
 }
