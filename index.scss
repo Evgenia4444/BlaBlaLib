@@ -122,7 +122,8 @@ body {
         position: absolute;
         top: -90px;
         right: -100px;
-        animation: submarine 1s infinite linear;
+        animation: submarine 1s infinite ease;
+        animation-direction: alternate;
     }
 
     @keyframes submarine {
@@ -158,6 +159,7 @@ cursor: pointer;
     left: 400px;
     top: 1700px;
     animation: lightbulb 2s infinite linear;
+    animation-direction: alternate;
 }
 
 @keyframes lightbulb {

@@ -146,8 +146,10 @@ body {
   position: absolute;
   top: -90px;
   right: -100px;
-  -webkit-animation: submarine 1s infinite linear;
-          animation: submarine 1s infinite linear;
+  -webkit-animation: submarine 1s infinite ease;
+          animation: submarine 1s infinite ease;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
 }
 
 @-webkit-keyframes submarine {
@@ -191,6 +193,8 @@ body {
   top: 1700px;
   -webkit-animation: lightbulb 2s infinite linear;
           animation: lightbulb 2s infinite linear;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
 }
 
 @-webkit-keyframes lightbulb {
