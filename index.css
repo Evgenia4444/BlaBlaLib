@@ -145,4 +145,10 @@ body {
   top: -90px;
   right: -100px;
 }
+
+.julesverne {
+  -webkit-box-shadow: 3px 19px 30px #77C3A9;
+          box-shadow: 3px 19px 30px #77C3A9;
+  cursor: pointer;
+}
 /*# sourceMappingURL=index.css.map */
