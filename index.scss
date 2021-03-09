@@ -118,7 +118,15 @@ body {
         top: -90px;
         right: -100px;
     }
+
 }
+
+.submarine {
+    animation: submarine infinite timing-function delay iteration-count direction fill-mode;
+
+}
+
+@keyframes 
 
 .julesverne {
     box-shadow: 3px 19px 30px #77C3A9;
