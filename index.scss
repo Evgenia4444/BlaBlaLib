@@ -43,6 +43,14 @@ body {
 
 }
 
+.easel {
+    position: relative;
+
+   .clock {
+       position: absolute;
+       top: 10px;
+   }
+}
 .row_2_2 {
     margin-right: 0;
     
