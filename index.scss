@@ -107,13 +107,15 @@ body {
 .row_4_2 {
     position: relative;
     flex-direction: column;
-
+    
     .books {
         position: absolute;
         top: 180px;
+        right: -140px;
     }
-    .presubmarine {
+    .presumbarine {
         position: absolute;
-        top: 100px;
+        top: -90px;
+        right: -100px;
     }
 }

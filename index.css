@@ -137,10 +137,12 @@ body {
 .row_4_2 .books {
   position: absolute;
   top: 180px;
+  right: -140px;
 }
 
-.row_4_2 .presubmarine {
+.row_4_2 .presumbarine {
   position: absolute;
-  top: 100px;
+  top: -90px;
+  right: -100px;
 }
 /*# sourceMappingURL=index.css.map */
