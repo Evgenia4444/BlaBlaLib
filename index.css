@@ -68,8 +68,8 @@ body {
   top: -10px;
   left: -102px;
   opacity: 0;
-  -webkit-transition: 0.3s ease;
-  transition: 0.3s ease;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
 }
 
 .row_2_2 {
