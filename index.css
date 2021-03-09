@@ -122,6 +122,8 @@ body {
 /* Animations */
 /* Salvador Animation */
 .salvador {
+  overflow: hidden;
+  border-radius: 28px 28px 0 0;
   -webkit-box-shadow: 3px 19px 30px #77C3A9;
           box-shadow: 3px 19px 30px #77C3A9;
   cursor: pointer;
@@ -175,6 +177,8 @@ body {
 }
 
 .julesverne {
+  overflow: hidden;
+  border-radius: 28px 28px 0 0;
   -webkit-box-shadow: 3px 19px 30px #77C3A9;
           box-shadow: 3px 19px 30px #77C3A9;
   cursor: pointer;
@@ -185,6 +189,11 @@ body {
   -webkit-box-shadow: 3px 19px 30px #E24236;
           box-shadow: 3px 19px 30px #E24236;
   cursor: pointer;
+}
+
+.lightbulbdiv {
+  width: 120px;
+  height: 528px;
 }
 
 .lightbulb {
@@ -199,8 +208,8 @@ body {
 
 @-webkit-keyframes lightbulb {
   from {
-    -webkit-transform: rotateZ(5deg);
-            transform: rotateZ(5deg);
+    -webkit-transform: rotateZ(1deg);
+            transform: rotateZ(1deg);
   }
   to {
     -webkit-transform: rotateZ(-20deg);
@@ -210,8 +219,8 @@ body {
 
 @keyframes lightbulb {
   from {
-    -webkit-transform: rotateZ(5deg);
-            transform: rotateZ(5deg);
+    -webkit-transform: rotateZ(1deg);
+            transform: rotateZ(1deg);
   }
   to {
     -webkit-transform: rotateZ(-20deg);

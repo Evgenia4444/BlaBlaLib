@@ -101,6 +101,8 @@ body {
 /* Salvador Animation */
 
 .salvador {
+    overflow: hidden;
+    border-radius: 28px 28px 0 0;
     box-shadow: 3px 19px 30px #77C3A9;
     cursor: pointer;
 }
@@ -143,6 +145,8 @@ body {
 }
 
 .julesverne {
+    overflow: hidden;
+    border-radius: 28px 28px 0 0;
     box-shadow: 3px 19px 30px #77C3A9;
     cursor: pointer;
 }
@@ -154,6 +158,10 @@ body {
 cursor: pointer;
 }
 
+.lightbulbdiv {
+    width: 120px;
+    height: 528px;
+}
 .lightbulb {
     position: absolute;
     left: 400px;
@@ -164,7 +172,7 @@ cursor: pointer;
 
 @keyframes lightbulb {
     from {
-        transform: rotateZ(5deg);
+        transform: rotateZ(1deg);
     }
     to {
         transform: rotateZ(-20deg);
