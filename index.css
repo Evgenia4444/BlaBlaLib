@@ -120,12 +120,14 @@ body {
 }
 
 /* Animations */
+/* Salvador Animation */
 .salvador {
   -webkit-box-shadow: 3px 19px 30px #77C3A9;
           box-shadow: 3px 19px 30px #77C3A9;
   cursor: pointer;
 }
 
+/* Jules Verne Animation */
 .row_4_2 {
   position: relative;
   -webkit-box-orient: vertical;
@@ -144,22 +146,42 @@ body {
   position: absolute;
   top: -90px;
   right: -100px;
+  -webkit-animation: submarine 1s infinite linear;
+          animation: submarine 1s infinite linear;
 }
 
-.submarine {
-  -webkit-animation: submarine infinite timing-function delay iteration-count direction fill-mode;
-          animation: submarine infinite timing-function delay iteration-count direction fill-mode;
+@-webkit-keyframes submarine {
+  from {
+    -webkit-transform: rotateZ(35deg);
+            transform: rotateZ(35deg);
+  }
+  to {
+    -webkit-transform: rotateZ(3deg);
+            transform: rotateZ(3deg);
+  }
 }
 
-@-webkit-keyframes .julesverne {
+@keyframes submarine {
+  from {
+    -webkit-transform: rotateZ(35deg);
+            transform: rotateZ(35deg);
+  }
+  to {
+    -webkit-transform: rotateZ(3deg);
+            transform: rotateZ(3deg);
+  }
+}
+
+.julesverne {
   -webkit-box-shadow: 3px 19px 30px #77C3A9;
           box-shadow: 3px 19px 30px #77C3A9;
   cursor: pointer;
 }
 
-@keyframes .julesverne {
-  -webkit-box-shadow: 3px 19px 30px #77C3A9;
-          box-shadow: 3px 19px 30px #77C3A9;
+/* Edison Animation */
+.edison {
+  -webkit-box-shadow: 3px 19px 30px #E24236;
+          box-shadow: 3px 19px 30px #E24236;
   cursor: pointer;
 }
 /*# sourceMappingURL=index.css.map */

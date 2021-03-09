@@ -97,12 +97,17 @@ body {
 
 /* Animations */
 
+
+/* Salvador Animation */
+
 .salvador {
     box-shadow: 3px 19px 30px #77C3A9;
     cursor: pointer;
 }
 
 
+
+/* Jules Verne Animation */
 
 .row_4_2 {
     position: relative;
@@ -117,18 +122,33 @@ body {
         position: absolute;
         top: -90px;
         right: -100px;
+        animation: submarine 1s infinite linear;
     }
 
+    @keyframes submarine {
+        from {
+            transform: rotateZ(35deg);
+        }
+        to {
+            transform: rotateZ(3deg);
+        }
+    }
+    
 }
 
 .submarine {
-    animation: submarine infinite timing-function delay iteration-count direction fill-mode;
+    
 
 }
-
-@keyframes 
 
 .julesverne {
     box-shadow: 3px 19px 30px #77C3A9;
     cursor: pointer;
+}
+
+
+/* Edison Animation */
+.edison {
+    box-shadow: 3px 19px 30px #E24236;
+cursor: pointer;
 }
