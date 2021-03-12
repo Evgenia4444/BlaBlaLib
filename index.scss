@@ -21,6 +21,7 @@ body {
     justify-content: space-between;
     border-bottom: 20px solid #fff;
     margin-bottom: 6rem;
+    z-index: 1;
     
     
     &_part {
@@ -128,10 +129,12 @@ body {
     }
     .presubmarine {
         position: absolute;
-        top: -90px;
+        top: -300px; 
         right: -100px;
+        opacity: 0;
         animation: submarine 1s infinite ease;
         animation-direction: alternate;
+        transition: all 0.25s ease;
     }
 
     @keyframes submarine {
@@ -147,7 +150,6 @@ body {
 
 .submarine {
    position: absolute;
-   opacity: 0;
    top: -300px; 
    right: -100px;
 
@@ -158,13 +160,17 @@ body {
     border-radius: 28px 28px 0 0;
     box-shadow: 3px 19px 30px #77C3A9;
     cursor: pointer;
+    z-index: 30;
 }
 
 
 /* Edison Animation */
 .edison {
+    overflow: hidden;
+    border-radius: 32px 32px 0 0;
     box-shadow: 3px 19px 30px #E24236;
-cursor: pointer;
+    cursor: pointer;
+    z-index: 20;
 }
 
 .lightbulbdiv {
@@ -172,11 +178,13 @@ cursor: pointer;
     height: 528px;
 }
 .lightbulb {
+    opacity: 0;
     position: absolute;
     left: 400px;
     top: 1700px;
     animation: lightbulb 2s infinite linear;
     animation-direction: alternate;
+    transition: all 0.3s ease;
 }
 
 @keyframes lightbulb {

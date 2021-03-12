@@ -3,4 +3,24 @@
   left: -117px;
   top: 140px;
 }
+
+.book_4_1_4 {
+  position: absolute;
+  left: -117px;
+  top: 140px;
+}
+
+.skullbooks {
+  position: absolute;
+  left: 200px;
+  top: 1460px;
+  z-index: 120;
+}
+
+.skull {
+  position: absolute;
+  left: 320px;
+  top: 1240px;
+  z-index: 100;
+}
 /*# sourceMappingURL=bookslayout.css.map */

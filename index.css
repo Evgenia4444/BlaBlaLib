@@ -25,6 +25,7 @@ body {
           justify-content: space-between;
   border-bottom: 20px solid #fff;
   margin-bottom: 6rem;
+  z-index: 1;
 }
 
 .book_row_part {
@@ -147,12 +148,15 @@ body {
 
 .row_4_2 .presubmarine {
   position: absolute;
-  top: -90px;
+  top: -300px;
   right: -100px;
+  opacity: 0;
   -webkit-animation: submarine 1s infinite ease;
           animation: submarine 1s infinite ease;
   -webkit-animation-direction: alternate;
           animation-direction: alternate;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
 }
 
 @-webkit-keyframes submarine {
@@ -179,7 +183,6 @@ body {
 
 .submarine {
   position: absolute;
-  opacity: 0;
   top: -300px;
   right: -100px;
 }
@@ -190,13 +193,17 @@ body {
   -webkit-box-shadow: 3px 19px 30px #77C3A9;
           box-shadow: 3px 19px 30px #77C3A9;
   cursor: pointer;
+  z-index: 30;
 }
 
 /* Edison Animation */
 .edison {
+  overflow: hidden;
+  border-radius: 32px 32px 0 0;
   -webkit-box-shadow: 3px 19px 30px #E24236;
           box-shadow: 3px 19px 30px #E24236;
   cursor: pointer;
+  z-index: 20;
 }
 
 .lightbulbdiv {
@@ -205,6 +212,7 @@ body {
 }
 
 .lightbulb {
+  opacity: 0;
   position: absolute;
   left: 400px;
   top: 1700px;
@@ -212,6 +220,8 @@ body {
           animation: lightbulb 2s infinite linear;
   -webkit-animation-direction: alternate;
           animation-direction: alternate;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 @-webkit-keyframes lightbulb {
