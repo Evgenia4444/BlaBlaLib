@@ -75,6 +75,7 @@ body {
 
 .row_2_2 {
   margin-right: 0;
+  position: relative;
 }
 
 .row_3_2 {
@@ -141,10 +142,10 @@ body {
 .row_4_2 .books {
   position: absolute;
   top: 180px;
-  right: -140px;
+  right: -160px;
 }
 
-.row_4_2 .presumbarine {
+.row_4_2 .presubmarine {
   position: absolute;
   top: -90px;
   right: -100px;
@@ -174,6 +175,13 @@ body {
     -webkit-transform: rotateZ(3deg);
             transform: rotateZ(3deg);
   }
+}
+
+.submarine {
+  position: absolute;
+  opacity: 0;
+  top: -300px;
+  right: -100px;
 }
 
 .julesverne {

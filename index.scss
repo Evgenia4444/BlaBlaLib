@@ -1,3 +1,4 @@
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -20,6 +21,7 @@ body {
     justify-content: space-between;
     border-bottom: 20px solid #fff;
     margin-bottom: 6rem;
+    
     
     &_part {
        display: flex;
@@ -58,8 +60,12 @@ body {
 }
 .row_2_2 {
     margin-right: 0;
+    position: relative;
+    
     
 }
+
+
 
 .row_3_2 {
     margin-top: 0;
@@ -118,9 +124,9 @@ body {
     .books {
         position: absolute;
         top: 180px;
-        right: -140px;
+        right: -160px;
     }
-    .presumbarine {
+    .presubmarine {
         position: absolute;
         top: -90px;
         right: -100px;
@@ -140,7 +146,10 @@ body {
 }
 
 .submarine {
-    
+   position: absolute;
+   opacity: 0;
+   top: -300px; 
+   right: -100px;
 
 }
 
