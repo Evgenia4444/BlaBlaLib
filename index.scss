@@ -170,6 +170,7 @@ body {
     border-radius: 32px 32px 0 0;
     box-shadow: 3px 19px 30px #E24236;
     cursor: pointer;
+    transition: 0.3s ease;
     z-index: 20;
 }
 
@@ -194,4 +195,11 @@ body {
     to {
         transform: rotateZ(-20deg);
     }
+}
+
+.mary {
+    border-radius: 32px 32px 0 0;
+    box-shadow: 3px 19px 30px #E97F31;
+    cursor: pointer;
+    transition: 0.3s ease; 
 }
