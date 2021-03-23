@@ -214,6 +214,30 @@ body {
     }
    
 }
+
+.candlessprite {
+    overflow: hidden;
+    width: 252px;
+    height: 200px;
+    cursor: pointer;
+}
+
+
+.candles {
+    animation: candlesSprite 0.5s steps(2);
+}
+
+@keyframes candlesSprite {
+    from {
+        transform: translate3d(0px, 0, 0)
+    }
+    to {
+        transform: translate3d(-100%, 0, 0);
+    }
+   
+}
+
+
 /* Salvador Animation */
 
 .salvador {
@@ -323,12 +347,25 @@ body {
 }
 
 .flasksprite {
-   // overflow: hidden;
-    width: 100px;
-    height: 50px;
-    background: wheat;
+    overflow: hidden;
+    width: 190px;
+    height: 282px;
+    
 }
 
+.flaskspriteimg {
+    animation: flaskSprite 0.5s steps(2) infinite;
+}
+
+@keyframes flaskSprite {
+    from {
+        transform: translate3d(0px, 0, 0)
+    }
+    to {
+        transform: translate3d(-100%, 0, 0);
+    }
+   
+}
 
 /* #clock path:nth-child(1) {
     stroke-dasharray: ;
@@ -404,27 +441,5 @@ body {
     .books {
         top: 1200px;
     }
-}
-
-.candlessprite {
-    overflow: hidden;
-    width: 252px;
-    height: 200px;
-    cursor: pointer;
-}
-
-
-.candles {
-    animation: candlesSprite 0.5s steps(2);
-}
-
-@keyframes candlesSprite {
-    from {
-        transform: translate3d(0px, 0, 0)
-    }
-    to {
-        transform: translate3d(-100%, 0, 0);
-    }
-   
 }
 

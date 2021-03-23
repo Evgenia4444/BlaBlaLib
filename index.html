@@ -12,13 +12,24 @@
     
     <script>
 
-$(function() {
-     $('.ferenc').click(function() {
-     $('.music').css({
-         'opacity': '1'
-         })
-       })
-     });
+
+        $(function() {
+            $('.candlessprite').click(function() {
+                
+
+            $('.precandles').addClass('candles')
+
+        });
+        });
+
+
+        $(function() {
+            $('.ferenc').click(function() {
+            $('.music').css({
+                'opacity': '1'
+                })
+            })
+            });
 
         $(function() {
      $('.note1').click(function() {
@@ -83,8 +94,8 @@ $(function() {
 
     });
 
-    console.log('hello')
-    $('.flask').addClass('flasklight')
+    
+    $('.preflaskspriteimg').addClass('flaskspriteimg')
 
    });
 });
@@ -101,15 +112,6 @@ $(document).ready(function() {
     }
 });
 
-
-$(function() {
-    $('.candlessprite').click(function() {
-        
-
-    $('.precandles').addClass('candles')
-
-   });
-});
 
 
     </script>
@@ -237,7 +239,7 @@ $(function() {
        
        <div class="book_row_part row_5_3">
            <div class="flasksprite">
-             <img src="./images/flasksprite.png" alt="" class="flask">
+             <img src="./images/flasksprite.png" alt="" class="preflaskspriteimg">
            </div>     
            <img src="./images/5-3-1.svg" alt="">
            <img src="./images/5-3-2.svg" alt="">        
