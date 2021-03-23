@@ -246,6 +246,7 @@ body {
     border-radius: 28px 28px 0 0;
     box-shadow: 3px 19px 30px #77C3A9;
     cursor: pointer;
+    transition: box-shadow 0.6s;
 }
 
 
@@ -297,6 +298,7 @@ body {
     box-shadow: 3px 19px 30px #77C3A9;
     cursor: pointer;
     z-index: 500;
+    transition: box-shadow 0.6s;
 }
 
 
@@ -308,6 +310,7 @@ body {
     cursor: pointer;
     transition: 0.3s ease;
     z-index: 20;
+    transition: box-shadow 0.6s;
 }
 
 .lightbulbdiv {
@@ -340,6 +343,7 @@ body {
     left: 363px;
     top: 2000px;
     transition: 0.3s ease; 
+    transition: box-shadow 0.6s;
 }
    
 

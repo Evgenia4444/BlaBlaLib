@@ -57,16 +57,14 @@
 
         $(function() {
     $('.salvador').click(function() {
-    $('.clock').css('opacity', '1')  
+    $('.clock').css('opacity', '1');
+    $('.salvador').css({
+                    'box-shadow':'unset'
+                }) 
    })
 });
 
 
-$(function() {
-    $('.salvador').click(function() {
-    $('.clock').css('opacity', '1')  
-   })
-});
 
 $(function() {
     $('.julesverne').click(function() {
@@ -76,7 +74,10 @@ $(function() {
         'right': '290px',
         'animation': 'submarine 1s infinite ease',
         'animation-direction': 'alternate'
-                   })  
+                   });  
+                   $('.julesverne').css({
+                                    'box-shadow':'unset'
+                                }) 
    });
 });
 
@@ -84,8 +85,10 @@ $(function() {
     $('.edison').click(function() {
     $('.lightbulb').css({
         'opacity': '1',
-        
-                   })  
+             });
+        $('.edison').css({
+           'box-shadow':'unset'
+                 })   
    });
 });
 

@@ -296,6 +296,10 @@ body {
   -webkit-box-shadow: 3px 19px 30px #77C3A9;
           box-shadow: 3px 19px 30px #77C3A9;
   cursor: pointer;
+  -webkit-transition: -webkit-box-shadow 0.6s;
+  transition: -webkit-box-shadow 0.6s;
+  transition: box-shadow 0.6s;
+  transition: box-shadow 0.6s, -webkit-box-shadow 0.6s;
 }
 
 /* Jules Verne Animation */
@@ -359,6 +363,10 @@ body {
           box-shadow: 3px 19px 30px #77C3A9;
   cursor: pointer;
   z-index: 500;
+  -webkit-transition: -webkit-box-shadow 0.6s;
+  transition: -webkit-box-shadow 0.6s;
+  transition: box-shadow 0.6s;
+  transition: box-shadow 0.6s, -webkit-box-shadow 0.6s;
 }
 
 /* Edison Animation */
@@ -371,6 +379,10 @@ body {
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease;
   z-index: 20;
+  -webkit-transition: -webkit-box-shadow 0.6s;
+  transition: -webkit-box-shadow 0.6s;
+  transition: box-shadow 0.6s;
+  transition: box-shadow 0.6s, -webkit-box-shadow 0.6s;
 }
 
 .lightbulbdiv {
@@ -420,6 +432,10 @@ body {
   top: 2000px;
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease;
+  -webkit-transition: -webkit-box-shadow 0.6s;
+  transition: -webkit-box-shadow 0.6s;
+  transition: box-shadow 0.6s;
+  transition: box-shadow 0.6s, -webkit-box-shadow 0.6s;
 }
 
 .cursormary {
