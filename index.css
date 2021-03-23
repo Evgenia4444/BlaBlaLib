@@ -344,8 +344,8 @@ body {
 }
 
 .candles {
-  -webkit-animation: candlesSprite 0.3s steps(2);
-          animation: candlesSprite 0.3s steps(2);
+  -webkit-animation: candlesSprite 0.5s steps(2);
+          animation: candlesSprite 0.5s steps(2);
 }
 
 @-webkit-keyframes candlesSprite {
