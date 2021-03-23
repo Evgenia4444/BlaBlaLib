@@ -257,36 +257,16 @@ body {
 
 .candlessprite {
   overflow: hidden;
-  width: 252px;
+  width: 258px;
   height: 200px;
   cursor: pointer;
+  background-image: url(/images/candlessprite.png);
+  -webkit-transition: background-image 0.6s;
+  transition: background-image 0.6s;
 }
 
 .candles {
-  -webkit-animation: candlesSprite 0.5s steps(2);
-          animation: candlesSprite 0.5s steps(2);
-}
-
-@-webkit-keyframes candlesSprite {
-  from {
-    -webkit-transform: translate3d(0px, 0, 0);
-            transform: translate3d(0px, 0, 0);
-  }
-  to {
-    -webkit-transform: translate3d(-100%, 0, 0);
-            transform: translate3d(-100%, 0, 0);
-  }
-}
-
-@keyframes candlesSprite {
-  from {
-    -webkit-transform: translate3d(0px, 0, 0);
-            transform: translate3d(0px, 0, 0);
-  }
-  to {
-    -webkit-transform: translate3d(-100%, 0, 0);
-            transform: translate3d(-100%, 0, 0);
-  }
+  background-position: -100% 0;
 }
 
 /* Salvador Animation */
@@ -444,35 +424,15 @@ body {
 
 .flasksprite {
   overflow: hidden;
-  width: 190px;
+  width: 180px;
   height: 282px;
+  background-image: url(/images/flasksprite.png);
+  -webkit-transition: background-image 0.6s;
+  transition: background-image 0.6s;
 }
 
 .flaskspriteimg {
-  -webkit-animation: flaskSprite 0.5s steps(2) infinite;
-          animation: flaskSprite 0.5s steps(2) infinite;
-}
-
-@-webkit-keyframes flaskSprite {
-  from {
-    -webkit-transform: translate3d(0px, 0, 0);
-            transform: translate3d(0px, 0, 0);
-  }
-  to {
-    -webkit-transform: translate3d(-100%, 0, 0);
-            transform: translate3d(-100%, 0, 0);
-  }
-}
-
-@keyframes flaskSprite {
-  from {
-    -webkit-transform: translate3d(0px, 0, 0);
-            transform: translate3d(0px, 0, 0);
-  }
-  to {
-    -webkit-transform: translate3d(-100%, 0, 0);
-            transform: translate3d(-100%, 0, 0);
-  }
+  background-position: -97% 0;
 }
 
 /* #clock path:nth-child(1) {
