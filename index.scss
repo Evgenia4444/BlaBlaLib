@@ -23,13 +23,14 @@ body {
     border-bottom: 20px solid #fff;
     margin-bottom: 6rem;
     z-index: 1;
-    padding: 2rem 0;
+    
     
     
     &_part {
        display: flex;
        align-items: flex-end;
        height: 480px;
+       padding-bottom: 20px;
       
     }
 }
@@ -118,11 +119,13 @@ body {
 
 
 .music {
+    opacity: 0;
     width: 500px;
     height: 300px;
     position: absolute;
     top: 20%;
     left: 30%;
+    transition: all 0.3s;
 }
 
 
@@ -376,7 +379,7 @@ body {
 
 
 @media screen and (max-width: 380px) {
-    .book_row{
+    .book_row {
         flex-direction: column;
         border: none;
         height: 840px;
