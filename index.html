@@ -27,8 +27,11 @@
             $('.ferenc').click(function() {
             $('.music').css({
                 'opacity': '1'
+                });
+                $('.ferenc').css({
+                    'box-shadow':'unset'
                 })
-            })
+            });
             });
 
         $(function() {
@@ -98,6 +101,13 @@ $(function() {
     $('.preflaskspriteimg').addClass('flaskspriteimg')
 
    });
+   
+   $('.flasksprite').click(function() {
+       $('body').css({
+           'cursor': 'default'
+       });
+       $
+   })
 });
 
 
@@ -192,11 +202,13 @@ $(document).ready(function() {
        <div class="book_row_part row_3_1">
            <img src="./images/3-1-1.svg" alt="">
            <img src="./images/3-1-2.svg" alt="">
+           <div></div>
+           <img src="./images/3-2-skull.svg" alt="" class="skull">     
+           <img src="./images/3-2-books.svg" alt="" class="skullbooks">
        </div>
      
        <div class="book_row_part row_3_3">
-           <img src="./images/3-2-skull.svg" alt="" class="skull">     
-           <img src="./images/3-2-books.svg" alt="" class="skullbooks">
+           
            <img src="./images/3-3-1.svg" alt="" >
            <img src="./images/3-3-2.svg" alt="" class="julesverne">
            <img src="./images/3-3-3.svg" alt="">
